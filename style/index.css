@@ -50,18 +50,125 @@ table {
 /* Header and Nav */
 
 body {
-    width: 80%;
+    width: 95%;
 }
+
+.container-nav {
+	border: solid black 1px;
+	background-color: lightgray;
+	width: 105.1%;
+}
+
+header h1 {
+	font-size: 200%;
+	padding: 1%;
+	
+}
+
+
+ul {
+	width: 17%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 3%;
+    font-size: 14px;
+	text-align: justify;
+  }
+  
+  li {
+	float: left;
+	
+	
+  }
+  
+  li a {
+	color: black;
+    text-decoration: none;
+	font-weight: bold;
+	background-color: white;
+	
+  }
+
+  li a:hover {
+	  background-color: black;
+	  color: white;
+  }
+
+  .Home {
+	  border: solid black 1px;
+	  padding: 31%;
+	  margin: 31%;
+
+  }
+
+  .About {
+	border: solid black 1px;
+	padding: 30%;
+	margin: 30%;
+
+}
+
+  .Projects {
+	border: solid black 1px;
+	padding: 23%;
+	margin: 23%;
+
+}
+
+.Contact {
+	border: solid black 1px;
+	padding: 23.5%;
+	margin: 23.5%;
+
+}
+
+.container-top {
+	padding-bottom: 20%;
+	justify-content: center;
+	text-align: center;
+	width: 80%;
+	font-size: 150%;
+}
+
+
 
 .container1 {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+	padding: 10px;
+	margin: 10%;
     justify-content: center;
-    align-items: center;
+	align-items: center;
     
 }
 
-.gallery {
-    margin: 20px;
+.picture1 {
+	height: 15%;
+	width: 25%;
+	float: left;
 }
+
+.gallery {
+	margin: 20px;
+	text-align: center;
+
+}
+
+footer {
+	text-align: center;
+	font-size: 200%;
+	background-color: lightgray;
+	width: 105.2%;
+	padding-top: 5%;
+	border: solid black 1px;
+}
+
+
+.contact-me {
+	color: black;
+    text-decoration: none;
+	background-color: white;
+	border: solid black 1px;
+	
+}
+
